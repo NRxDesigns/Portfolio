@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Upcoming | Case Study</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="javascript/Global.js" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/lenis@1.3.23/dist/lenis.css"
+    />
+    <script src="https://unpkg.com/lenis@1.3.23/dist/lenis.min.js"></script>
+    <script>
+      new Lenis({
+        autoRaf: true,
+        autoToggle: true,
+        anchors: true,
+        allowNestedScroll: true,
+        naiveDimensions: true,
+        stopInertiaOnNavigate: true,
+      });
+    </script>
+  </head>
+  <body>
+    <main-nav></main-nav>
+
+    <section id="fade-in" class="hero">
+      <div class="hero-content">
+        <div class="hero-buttons">
+          <img
+            src="assets/nab-logo.png"
+            alt="logo"
+            class="project-hero-image"
+          />
+        </div>
+        <h1>Upcoming</h1>
+        <hero-text
+          >Helping customers plan ahead and stay in control of their
+          budget.</hero-text
+        >
+      </div>
+      <div class="hero-image-container">
+        <img
+          src="assets/upcoming/upcoming-hero.png"
+          alt="Upcoming"
+          class="hero-image"
+        />
+      </div>
+    </section>
+
+    <section id="fade-in" class="project-single-box">
+      <div class="grid-achievements">
+        <div class="project-achievements-item">
+          <div class="achievement" style="opacity: 1">
+            <div class="achievement-amount">1st</div>
+            <div class="achievement-heading">ranked FWB tool in NAB</div>
+          </div>
+        </div>
+        <div class="project-achievements-item">
+          <div class="achievement" style="opacity: 1">
+            <div class="achievement-amount">470k+</div>
+            <div class="achievement-heading">unique users</div>
+          </div>
+        </div>
+        <div class="project-achievements-item">
+          <div class="achievement" style="opacity: 1">
+            <div class="achievement-amount">4.6/5</div>
+            <div class="achievement-heading">approval rating</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div id="fade-in" class="project-details-row">
+      <div class="content-cube">
+        <div class="text-content">
+          <h2>About the project</h2>
+          <p>
+            Recent research shows that 2.4 million Australians do not know when
+            their regular bills are due, leaving them vulnerable to late fees
+            and financial stress. Broader financial pressure is also rising,
+            with 28 percent of households reporting at least one cash‑flow
+            problem in the past year. Unexpected bills are especially
+            destabilising, with almost two thirds of households unable to
+            comfortably pay a surprise $2,000 expense.
+          </p>
+          <p>
+            Upcoming was created to address this growing problem. It predicts
+            the bills a customer is likely to receive in the next 30 days by
+            analysing their historical bill patterns. By giving customers
+            visibility of what is coming, the tool helps reduce financial stress
+            and supports better planning.
+          </p>
+        </div>
+      </div>
+      <div class="content-cube">
+        <div class="image-content">
+          <img
+            src="assets/upcoming/upcoming-fan.png"
+            alt="Profile"
+            class="project-image"
+          />
+        </div>
+      </div>
+    </div>
+
+    <section id="fade-in" class="project-single-box">
+      <div class="content-single">
+        <h2>Objective</h2>
+        <div class="text-content">
+          <p>
+            The goal of Upcoming is to give customers a clear forecast of their
+            upcoming expenses so they can manage their cash flow with
+            confidence.
+          </p>
+          <p>
+            By helping customers avoid missed payments and unexpected
+            shortfalls, the tool supports stronger financial habits, increases
+            trust in the banking experience, and ultimately contributes to
+            healthier deposit behaviour.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="fade-in" class="project-single-box">
+      <div class="content-single">
+        <h2>Key success metrics</h2>
+        <div class="grid-metrics">
+          <div class="project-metric-item">
+            <div class="achievement" style="opacity: 1">
+              <div class="achievement-amount">300k</div>
+              <div class="achievement-heading">unique users</div>
+            </div>
+          </div>
+          <div class="project-metric-item">
+            <div class="achievement" style="opacity: 1">
+              <div class="achievement-amount">3.5/5</div>
+              <div class="achievement-heading">target approval rating</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div id="fade-in" class="project-details-row">
+      <div class="content-cube">
+        <div class="text-content">
+          <h2>Challenges</h2>
+          <div class="challenge-list">
+            <div class="project-challenge-item">
+              <div class="Challenge" style="opacity: 1">
+                <h3>#1 Slow back-end system</h3>
+                <p>
+                  Based on historical data, any changes to a bill would not be
+                  reflected until the next payment occurred
+                </p>
+              </div>
+            </div>
+            <div class="project-challenge-item">
+              <div class="Challenge" style="opacity: 1">
+                <h3>#2 Two previous bill requirement</h3>
+                <p>
+                  Forecasting required at least two previous bill payments to
+                  establish a pattern, delaying new bills showing for two bill
+                  cycles.
+                </p>
+              </div>
+            </div>
+            <div class="project-challenge-item">
+              <div class="Challenge" style="opacity: 1">
+                <h3>#3 Delayed actions</h3>
+                <p>
+                  Bill payments take two days to process, meaning a bill may
+                  remain in a forecasted state even after the customer pays it
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="content-cube">
+        <div class="image-content">
+          <img
+            src="assets/upcoming/Upcoming-Swipe-Animation.gif"
+            alt="Profile"
+            class="project-image"
+          />
+        </div>
+      </div>
+    </div>
+
+    <section id="fade-in" class="project-single-box">
+      <div class="content-single-solutions">
+        <h2>Challenging the challenges</h2>
+
+        <div class="grid-metrics">
+          <div class="project-challenging-the-challenges-item">
+            <div class="project-metric-item">
+              <div class="achievement" style="opacity: 1">
+                <div class="Challenging-subheading">Issue</div>
+                <h4>Slow back-end</h4>
+              </div>
+            </div>
+            <div class="project-challenging-item">
+              <div class="Challenging-the-challenges" style="opacity: 1">
+                <div class="solution-heading">Solution</div>
+                <p>
+                  I designed functionality that allowed customers to edit or
+                  delete predicted bills directly.
+                </p>
+                <p>
+                  This gave them immediate control over their forecast rather
+                  than waiting for the system to catch up.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-challenging-the-challenges-item">
+            <div class="project-metric-item">
+              <div class="achievement" style="opacity: 1">
+                <div class="Challenging-subheading">Issue</div>
+                <h4>Delayed forecasting</h4>
+              </div>
+            </div>
+            <div class="project-challenging-item">
+              <div class="Challenging-the-challenges" style="opacity: 1">
+                <div class="solution-heading">Solution</div>
+                <p>
+                  I designed the ability to add bills so customers could start
+                  forecasting expenses two bill cycles earlier.
+                </p>
+                <p>
+                  I pushed the experience further by allowing pre-filled data
+                  based on any previous similar bills. This way, customers
+                  didn’t have to fill the form from scratch.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-challenging-the-challenges-item">
+            <div class="project-metric-item">
+              <div class="achievement" style="opacity: 1">
+                <div class="Challenging-subheading">Issue</div>
+                <h4>Delayed actions</h4>
+              </div>
+            </div>
+            <div class="project-challenging-item">
+              <div class="Challenging-the-challenges" style="opacity: 1">
+                <div class="solution-heading">Solution</div>
+                <p>
+                  Adding the ability to mark bills as paid meant customers could
+                  clear their forecasted bills quickly while their bill payment
+                  was being processed.
+                </p>
+                <p>
+                  I pushed for swipe functionality to reduce friction and boost
+                  efficiency.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div id="fade-in" class="project-details-row">
+      <div class="content-cube">
+        <div class="text-content">
+          <h2>Prototype and testing</h2>
+          <p>
+            We ran two rounds of moderated testing with 12 participants in each
+            round, giving us a total of 24 participants across the study.
+          </p>
+          <p>
+            The first round performed well, achieving an approval rating of 4.32
+            out of 5, but it also revealed a key issue: many customers struggled
+            to understand how their payments influenced the bill forecast.
+          </p>
+          <p>Based on this insight, we refined the experience by:</p>
+          <ul style="margin-left: 30px; margin-bottom: 24px">
+            <li>Updates included clearer copy</li>
+            <li>
+              Adjustments to the interface to make it feel more like a read‑only
+              forecast rather than a direct debit management tool
+            </li>
+            <li>
+              Improved visual cues to help customers interpret predicted bills.
+            </li>
+          </ul>
+          <p>
+            The second round of testing showed significant improvement.
+            Confusion around payment behaviour dropped noticeably, and the
+            approval rating increased to 4.62/5 (7% increase).
+          </p>
+          <p>
+            These results validated that the refinements made the forecasting
+            model feel more intuitive and trustworthy.
+          </p>
+        </div>
+      </div>
+
+      <div class="content-cube">
+        <div class="image-content">
+          <img
+            src="assets/upcoming/upcoming-user-testing.png"
+            alt="Profile"
+            class="project-image"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div id="fade-in" class="project-details-row">
+      <div class="content-cube">
+        <div class="image-content">
+          <img
+            src="assets/upcoming/Specifications.png"
+            alt="Profile"
+            class="project-image"
+          />
+        </div>
+      </div>
+      <div class="content-cube">
+        <div class="text-content">
+          <h2>Design to development</h2>
+          <h3>Working with overseas development teams</h3>
+          <p>
+            With the development team working in a different time zone, most
+            collaboration happened asynchronously. I set up a workflow where
+            each completed user story triggered a desk check, helping us
+            validate builds quickly. Clear, open communication ensured
+            developers could surface questions easily and stay aligned with the
+            intended experience.
+          </p>
+
+          <h3>Documentations</h3>
+          <p>
+            I documented every scenario, edge case and error state to give
+            developers a complete reference. Using a shell‑based structure
+            allowed rapid updates across all screens, keeping the file
+            consistent and reducing rework.
+          </p>
+
+          <h3>Animation and design system contribution</h3>
+          <p>
+            Because animation was new within NAB’s design system, I utlised
+            Google Material 3 animation tokens to define speeds and easing. I
+            also built a Figma prototype using custom transitions to demonstrate
+            the motion behaviour in context. I worked with both the design
+            system team and gained the Chief Design Officer’s support ot push
+            animations into NABs design ecosystem.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <section id="fade-in" class="project-single-box">
+      <div class="content-single">
+        <h2>Outcomes</h2>
+
+        <div class="grid-metrics">
+          <div class="challenge-list">
+            <div class="project-metric-item">
+              <div class="achievement" style="opacity: 1">
+                <h3>Launch success</h3>
+                <p>Achieved 459,646 unique visitors in the first month</p>
+              </div>
+            </div>
+
+            <div class="project-metric-item">
+              <div class="achievement" style="opacity: 1">
+                <h3>Customer favourite</h3>
+                <p>
+                  Received universal customer feedback as the highest value
+                  financial well-being tool in NAB.
+                </p>
+              </div>
+            </div>
+
+            <div class="project-metric-item">
+              <div class="achievement" style="opacity: 1">
+                <h3>High approval rating</h3>
+                <p>
+                  We far exceeded original approval targets by 1.12 points (4.62
+                  / 5)
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <main-footer></main-footer>
+  </body>
+</html>

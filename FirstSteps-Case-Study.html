@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>First Steps | Case Study</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="javascript/Global.js" defer></script>
+    <script src="javascript/First-steps.js" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/lenis@1.3.23/dist/lenis.css"
+    />
+    <script src="https://unpkg.com/lenis@1.3.23/dist/lenis.min.js"></script>
+    <script>
+      new Lenis({
+        autoRaf: true,
+        autoToggle: true,
+        anchors: true,
+        allowNestedScroll: true,
+        naiveDimensions: true,
+        stopInertiaOnNavigate: true,
+      });
+    </script>
+  </head>
+  <body>
+    <main-nav></main-nav>
+
+    <section id="fade-in" class="hero">
+      <div class="hero-content">
+        <div class="hero-buttons">
+          <img
+            src="assets/nab-logo.png"
+            alt="logo"
+            class="project-hero-image"
+          />
+        </div>
+        <h1>First Steps</h1>
+        <hero-text>Making investing less daunting.</hero-text>
+      </div>
+      <div class="hero-image-container">
+        <img
+          src="assets/upcoming/upcoming-hero.png"
+          alt="Upcoming"
+          class="hero-image"
+        />
+      </div>
+    </section>
+
+    <section id="fade-in" class="project-single-box">
+      <div class="content-single">
+        <h2>About</h2>
+        <div class="text-content">
+          <p>
+            I surveyed 200 people on investing and found that more than half of
+            adults have little to no understanding of investing, and around 73%
+            say they want to begin but feel the process is too complex or risky.
+            For beginners, the combination of jargon, endless product choices,
+            and fear of making a mistake often becomes a barrier that stops them
+            before they even start.
+          </p>
+          <p>
+            First Steps seeks to offer a beginner‑friendly path into investing
+            with minimal fees, a small set of hand‑selected ETF options, and a
+            clean, simplified interface designed to reduce anxiety.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="fade-in" class="project-single-box">
+      <div class="content-single">
+        <h2>Objective</h2>
+        <div class="text-content">
+          <p>
+            The goal of First Steps is to get people with little to no knowledge
+            of investing within 5 minutes by utilising their pre-existing
+            accounts to fast track onboarding and provide learning material to
+            get them confident enough to get started.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div id="fade-in" class="project-details-row">
+      <div class="content-cube">
+        <div class="text-content">
+          <div class="project-subheading">
+            Customer journey map and personas
+          </div>
+          <h2>Understanding our customer</h2>
+          <h3>Workshops</h3>
+          <p>
+            I surveyed 200 participants who identified as having no knowledge or
+            beginner‑level understanding of the stock market. The research was
+            split into two targeted surveys of 100 participants each. The first
+            explored emotional barriers to investing, willingness to invest, and
+            perceptions of fees. The second examined broader investing
+            behaviour, including past experiences, research habits of those who
+            have invested before, and how non‑investors seek information.
+          </p>
+          <p>
+            Using <b>Cursor AI</b>, I consolidated testing notes and synthesised
+            the findings into clear themes that accurately represented the needs
+            and motivations of this demographic.
+          </p>
+          <h3>Creating personas and journey maps</h3>
+          <p>
+            From the research insights, I developed personas grounded in real
+            participant sentiment and behaviour. I then created detailed journey
+            maps using narrative storytelling and Figma‑generated illustrations
+            to visualise each persona’s end‑to‑end experience.
+          </p>
+          <p>
+            The organisation responded strongly to the clarity and impact of the
+            journeys, leading me to transform the Figma template into a
+            <b>.MDC</b> file and <b>Cursor AI command</b> that the wider team
+            could reuse. This meant that anyone could put in a rough persona and
+            narrative into Cursor and it would replicate what I achieved in this
+            journey.
+          </p>
+        </div>
+      </div>
+
+      <div class="content-cube">
+        <div class="image-content">
+          <img
+            src="assets/first-steps/FS-journey.png"
+            alt="Profile"
+            class="project-image"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div id="fade-in" class="project-details-row">
+      <div class="content-cube">
+        <div class="prototype-wrapper">
+          <!-- The Phone Display -->
+          <div class="phone-container" id="prototype-viewport">
+            <!-- Screen Images Layer -->
+            <div class="screen-layer" id="screen-layer">
+              <!-- The actual images will be injected here by JS -->
+              <img
+                src=""
+                alt="Screen"
+                class="screen-image"
+                id="display-image"
+              />
+            </div>
+
+            <!-- The Frame (PNG with transparent middle) -->
+            <!-- REPLACE 'assets/phone-frame.png' with your actual file path -->
+            <img
+              src="assets/first-steps/phone-frame.png"
+              class="phone-frame"
+              alt="Phone Frame"
+            />
+          </div>
+
+          <!-- Navigation Controls -->
+          <div class="controls">
+            <button id="prevBtn">Back</button>
+            <span class="counter" id="counter">1 / 1</span>
+            <button id="nextBtn">Next</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="content-cube">
+        <div class="text-content">
+          <div class="project-subheading">Prototype</div>
+          <h2>Crafting Simple Investing</h2>
+          <h3>Core loop and onboarding</h3>
+          <p>
+            Using the journey‑map narrative as the foundation, we defined a
+            clear core loop for Simple Investing customers, one that guided
+            beginners from initial curiosity to confident action. I then
+            designed an onboarding experience streamlined enough to get
+            customers investing within five minutes, removing friction while
+            still giving them the context they needed to feel secure in their
+            decisions.
+          </p>
+          <h3>Designing a simple experience</h3>
+          <p>
+            To keep the product approachable, ETFs were presented in a clean
+            card‑based carousel, allowing customers to browse options at their
+            own pace. They could buy and sell their ETFs through a
+            straightforward flow, supported by a learning hub on the dashboard
+            that helped them build knowledge over time. Once invested, customers
+            could view their ETF holdings through a minimal, easy‑to‑understand
+            interface that reinforced clarity and confidence throughout their
+            journey.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div id="fade-in" class="project-details-row">
+      <div class="content-cube">
+        <div class="text-content">
+          <div class="project-subheading">
+            Customer journey map and personas
+          </div>
+          <h2>Using AI to bring the journey to life</h2>
+          <h3>Building interactive journeys with Cursor</h3>
+          <p>
+            I noticed a recurring issue when presenting work to stakeholders:
+            showing the prototype alone lacked the customer’s perspective, while
+            showing the journey map lacked the depth of the prototype. To bridge
+            this gap, I used Cursor AI to build an interactive journey that
+            combined both views into a single experience.
+          </p>
+          <p>
+            Stakeholders could choose a persona with specific goals, progress
+            through the prototype, and see real‑time reactions showing how that
+            persona’s mood, confidence and understanding shifted at each step.
+            It felt more like an interactive game than a static artefact, making
+            the experience far more engaging and intuitive.
+          </p>
+
+          <p>
+            The response was overwhelmingly positive, so I turned it into a
+            reusable tool. Other teams can now plug in their own prototypes and
+            personas to generate interactive journeys for their projects.
+          </p>
+        </div>
+      </div>
+
+      <div class="content-cube">
+        <div class="image-content">
+          <img
+            src="assets/first-steps/Interactive-FirstSteps-Journey.gif"
+            alt="Profile"
+            class="project-image"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div id="fade-in" class="project-details-row">
+      <div class="content-cube" style="overflow: hidden">
+        <div id="container" class="text-animation-container"></div>
+      </div>
+      <div class="content-cube">
+        <div class="text-content">
+          <h2>Challenges</h2>
+          <div class="challenge-list">
+            <div class="project-challenge-item">
+              <div class="Challenge" style="opacity: 1">
+                <h3>80+ onboarding questions</h3>
+                <p>
+                  Due to legal requirements, customers would need to input over
+                  80 profile questions such as name, DOB, occupation details,
+                  compliance, tax etc
+                </p>
+              </div>
+            </div>
+            <div class="project-challenge-item">
+              <div class="Challenge" style="opacity: 1">
+                <h3>$500 min investment requirement</h3>
+                <p>
+                  The ASX has a $500 minimum first time investment requirement.
+                  Not great when our customer surveys showed our demographic
+                  would only be willing to put between $10 and $200 as their
+                  first investment.
+                </p>
+              </div>
+            </div>
+            <div class="project-challenge-item">
+              <div class="Challenge" style="opacity: 1">
+                <h3>Highly complex process</h3>
+                <p>
+                  According to our surveys, trading on the stock market was
+                  perceived as highly complex and daunting. How were we going to
+                  make it simple and easy to understand?
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section id="fade-in" class="project-single-box">
+      <div class="content-single-solutions">
+        <h2>Challenging the challenges</h2>
+
+        <div class="grid-metrics">
+          <div class="project-challenging-the-challenges-item">
+            <div class="project-metric-item">
+              <div class="achievement" style="opacity: 1">
+                <div class="Challenging-subheading">Issue</div>
+                <h4>Onboarding</h4>
+              </div>
+            </div>
+            <div class="project-challenging-item">
+              <div class="Challenging-the-challenges" style="opacity: 1">
+                <div class="solution-heading">Solution</div>
+                <p>
+                  We streamlined the onboarding by KYCing customers upfront and
+                  reusing the data already collected during app registration.
+                  Instead of asking for information twice, we presented a single
+                  summary screen for confirmation.
+                </p>
+                <p>
+                  This reduced the flow from more than two hundred clicks to
+                  just two, removing unnecessary friction.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-challenging-the-challenges-item">
+            <div class="project-metric-item">
+              <div class="achievement" style="opacity: 1">
+                <div class="Challenging-subheading">Issue</div>
+                <h4>$500 investment</h4>
+              </div>
+            </div>
+            <div class="project-challenging-item">
+              <div class="Challenging-the-challenges" style="opacity: 1">
+                <div class="solution-heading">Solution</div>
+                <p>
+                  The original five hundred dollar minimum was a major barrier,
+                  so we shifted to a custodial ownership model where we become
+                  the legal owner of the assets.
+                </p>
+                <p>
+                  This allowed customers to bypass the minimum and start
+                  investing with as little as one dollar, making the product far
+                  more accessible.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-challenging-the-challenges-item">
+            <div class="project-metric-item">
+              <div class="achievement" style="opacity: 1">
+                <div class="Challenging-subheading">Issue</div>
+                <h4>Complex process</h4>
+              </div>
+            </div>
+            <div class="project-challenging-item">
+              <div class="Challenging-the-challenges" style="opacity: 1">
+                <div class="solution-heading">Solution</div>
+                <p>
+                  To simplify the experience, I embedded learning throughout the
+                  journey with tutorials, contextual help and clear explanations
+                  wherever jargon was unavoidable.
+                </p>
+                <p>
+                  Using casual, approachable language helped customers feel
+                  supported and guided through what can otherwise be an
+                  intimidating process.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div id="fade-in" class="project-details-row">
+      <div class="content-cube">
+        <div class="text-content">
+          <h2>Testing the prototype</h2>
+          <p>
+            With the blueprinting for First Steps Investing complete and our
+            draft flows in place, I took the experience into market to validate
+            the direction. I ran twelve one hour interviews with customers to
+            understand how well the onboarding journey, education moments and
+            ETF selection process resonated.
+          </p>
+          <p>
+            Overall sentiment was very positive. Customers consistently
+            highlighted how quick and low friction the onboarding felt.
+            Interestingly, eight participants asked for more education, even if
+            it meant a longer process. They wanted clearer explanations of ETFs,
+            guidance on what to choose, how fees work and a simple breakdown of
+            how the stock market operates. This reinforced that confidence
+            building was just as important as speed.
+          </p>
+          <p>
+            We originally aimed for an approval rating of 3.5 out of 5. The
+            reception exceeded expectations and the prototype achieved 4.82 out
+            of 5, giving us strong validation that the core experience was on
+            the right track.
+          </p>
+        </div>
+      </div>
+
+      <div class="content-cube">
+        <div class="image-content">
+          <img
+            src="assets/upcoming/upcoming-user-testing.png"
+            alt="Profile"
+            class="project-image"
+          />
+        </div>
+      </div>
+    </div>
+
+    <main-footer></main-footer>
+  </body>
+</html>
