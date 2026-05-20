@@ -1,14 +1,14 @@
 // Prototype
 const screens = [
-  "assets/first-steps/screens/step-1-welcome.png",
-  "assets/first-steps/screens/step-2-tutorial.png",
-  "assets/first-steps/screens/step-3-tutorial.png",
-  "assets/first-steps/screens/step-4-tutorial.png",
-  "assets/first-steps/screens/step-5-etfs.png",
-  "assets/first-steps/screens/step-6-invest.png",
-  "assets/first-steps/screens/step-7-summary.png",
-  "assets/first-steps/screens/step-8-done.gif",
-  "assets/first-steps/screens/step-9-dashboard.png",
+  "assets/First-Steps/Screens/step-1-welcome.png",
+  "assets/First-Steps/Screens/step-2-tutorial.png",
+  "assets/First-Steps/Screens/step-3-tutorial.png",
+  "assets/First-Steps/Screens/step-4-tutorial.png",
+  "assets/First-Steps/Screens/step-5-etfs.png",
+  "assets/First-Steps/Screens/step-6-invest.png",
+  "assets/First-Steps/Screens/step-7-summary.png",
+  "assets/First-Steps/Screens/step-8-done.gif",
+  "assets/First-Steps/Screens/step-9-dashboard.png",
 ];
 
 let currentIndex = 0;

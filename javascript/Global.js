@@ -31,10 +31,10 @@ class SpecialNav extends HTMLElement {
     <a href="index.html">Home</a>
     <a href="about.html">About me</a>
     <div class="menu-header">Projects</div>
-    <a href="firststeps-case-study.html">First Steps</a>
-    <a href="upcoming-case-study.html">Upcoming</a>
-    <a href="spaces-case-study.html">Saving Spaces</a>
-    <a href="epa-case-study.html">EPA Vic</a>
+    <a href="FirstSteps-Case-Study.html">First Steps</a>
+    <a href="Upcoming-Case-Study.html">Upcoming</a>
+    <a href="Spaces-Case-Study.html">Saving Spaces</a>
+    <a href="EPA-Case-Study.html">EPA Vic</a>
   </div>
   <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
   <a href="javascript:void(0);" class="icon" onclick="navOpen()">
@@ -117,22 +117,22 @@ class SpecialFooter extends HTMLElement {
                <div class="w-dyn-list">
                   <div role="list" class="w-dyn-items">
                      <div role="listitem" class="collection-item-4 w-dyn-item">
-                        <a href="firststeps-case-study.html" class="footer-menu-link w-inline-block">
+                        <a href="FirstSteps-Case-Study.html" class="footer-menu-link w-inline-block">
                            <div class="footer-link">First Steps</div>
                         </a>
                      </div>
                      <div role="listitem" class="collection-item-4 w-dyn-item">
-                        <a href="upcoming-case-study.html" class="footer-menu-link w-inline-block">
+                        <a href="Upcoming-Case-Study.html" class="footer-menu-link w-inline-block">
                            <div class="footer-link">Upcoming</div>
                         </a>
                      </div>
                      <div role="listitem" class="collection-item-4 w-dyn-item">
-                        <a href="spaces-case-study.html" class="footer-menu-link w-inline-block">
+                        <a href="Spaces-Case-Study.html" class="footer-menu-link w-inline-block">
                            <div class="footer-link">Saving Spaces</div>
                         </a>
                      </div>
                      <div role="listitem" class="collection-item-4 w-dyn-item">
-                        <a href="epa-case-study.html" class="footer-menu-link w-inline-block">
+                        <a href="EPA-Case-Study.html" class="footer-menu-link w-inline-block">
                            <div class="footer-link">EPA Vic</div>
                         </a>
                      </div>
