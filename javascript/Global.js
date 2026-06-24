@@ -29,7 +29,7 @@ class SpecialNav extends HTMLElement {
   <!-- Navigation links (hidden by default) -->
   <div id="myLinks" class="w3-animate-top">
     <a href="index.html">Home</a>
-    <a href="about.html">About me</a>
+    <a href="About.html">About me</a>
     <div class="menu-header">Projects</div>
     <a href="FirstSteps-Case-Study.html">First Steps</a>
     <a href="Upcoming-Case-Study.html">Upcoming</a>
@@ -98,7 +98,7 @@ class SpecialFooter extends HTMLElement {
                <a href="index.html" aria-current="page" class="footer-menu-link w-inline-block w--current">
                   <div class="footer-link">Home</div>
                </a>
-               <a href="about.html" class="footer-menu-link w-inline-block">
+               <a href="About.html" class="footer-menu-link w-inline-block">
                   <div class="footer-link">About Me</div>
                </a>
             </div>
