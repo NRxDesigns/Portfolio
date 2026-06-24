@@ -471,7 +471,7 @@ hero-text {
   margin-bottom: 0;
   font-size: 3rem;
   font-weight: 600;
-  line-height: 4rem;
+  line-height: 3rem;
 }
 
 .achievement-heading {
@@ -480,7 +480,7 @@ hero-text {
   align-self: stretch;
   align-items: center;
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: 300;
   display: flex;
   overflow: hidden;
 }
