@@ -83,6 +83,7 @@ body {
   align-items: center;
   overflow: hidden;
   background: linear-gradient(90deg, rgba(36, 36, 36, 0) 0%, rgb(0, 0, 0) 100%);
+  padding: 3rem 15% 3rem 15%;
 }
 
 .hero-about {
